@@ -1,0 +1,65 @@
+.Topbar{
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  flex-direction: row;
+  align-items: center;
+  background-image: url("/public/images/MainBackground.png");
+  z-index: 1000;
+}
+
+.Gnbbar{
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 100px;
+  left: 0px;
+  right: 0px;
+  z-index: 1000;
+}
+
+.LangButton{
+  height: 40px;
+  width: 40px;
+}
+
+
+.TopbarDiv {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+  position: relative; 
+}
+
+.TopbarLogo {
+  margin-left: 5%;
+}
+
+.TopbarTrans {
+  display: flex;
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+.TopbarItem {
+  float: left;
+  width: 15vw;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.TopbarText {
+  color: white;
+  text-decoration: none;
+}

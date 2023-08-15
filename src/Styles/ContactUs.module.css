@@ -1,0 +1,123 @@
+.DivArea {
+  height: 100%;
+  padding-bottom: 5em;
+  position: relative;
+}
+
+.TitleDiv {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.TitleText {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ContactInputDiv{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.formHorizontal {
+  width: 70%;
+  padding: 20px 20px 0;
+}
+
+.formGruoup{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.formLabel{
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.inputDiv{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.Input{
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.InputLong{
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  line-height: 34px;
+  /* padding: 5px 0; */
+  resize: none;
+}
+
+.InputFile{
+  display:"none"
+}
+
+.RegistButton{
+  margin-top: 40px;
+  width: 30%;
+  height: 50px;
+  color: white;
+  border: none;
+  background-color: black;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.RegistButton:hover{
+  background-color: #096dd9;
+}
+
+.formLabelPirce{
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  position: relative;
+  min-height: 1px;
+}
+
+.pPrice{
+  font-size: 25px;
+}
+
+.pPriceExp{
+  padding-left: 23px;
+  font-size: 15px;
+}
+
+.pPriceExp2{
+  padding-left: 23px;
+  font-size: 13px;
+  margin-top: -15px;
+  color: #555;
+}

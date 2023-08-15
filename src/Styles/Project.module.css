@@ -1,0 +1,88 @@
+.maincontainer {
+    width: 1300px;
+    height: 1500px;
+    margin: 0 auto;
+    
+}
+
+.SearchBar{
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 800px;
+}
+
+.gpuStatics{
+    /* background-color: aqua; */
+    height:30%;
+}
+
+.cpuStatics{
+    /* background-color: pink; */
+    height: 30%;
+}
+
+.storageStatics{
+    /* background-color: orange; */
+    height: 40%;
+}
+
+.statics{
+    width: 50%;
+    height: 1500px;
+    float:left;
+    padding-bottom: 20px;
+}
+
+.priceInfo{
+    width: 50%;
+    height: 1500px;
+    float: left;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.statics_box {
+    border: 2px solid rgb(125, 125, 194);
+    border-radius: 10px;
+    height: 85%;
+    vertical-align: middle;
+}
+.priceInfo_box {
+    border: 2px solid rgb(125, 125, 194);
+    border-radius: 10px;
+    height: 95.5%;
+    vertical-align: middle;
+}
+.priceInfo_text{
+    font-size: 15px;
+    text-align: center;
+}
+.priceInfo_text_title{
+    padding-top:20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.priceInfo_subTitle{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.statics_title {
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    height: 15%;
+}
+.priceInfo_title {
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    height: 4.5%;
+}
+.lineChart{
+    width : 99%;
+    height: 98%;
+    padding-top:50px;
+}

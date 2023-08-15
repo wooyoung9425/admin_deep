@@ -1,0 +1,216 @@
+
+.index_inner {
+    background-image: url('../../public/images/index/main_2.png');
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.head_title {
+    text-align: center;
+    color: white;
+    font-size: 4.8rem;
+    font-weight: bold;
+    padding-top: 60px;
+
+}
+
+.head_text {
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+    font-weight:lighter;
+    padding-top: 10px;
+    letter-spacing: 0.1rem;
+}
+
+.box_container {
+    display: flex;
+    width: 1600px;
+    height: 650px;
+    margin: 0 auto;
+
+}
+
+.homeicon {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+
+}
+
+.mid {
+    text-align: center;
+    width: 85%;
+    height: 500px;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+}
+
+.index{
+    width: 140px;
+    height: 480px;
+    margin: 100px 10px 0 10px;
+}
+
+.index:hover {
+    transform: translate(0, -20px);
+    transition: 0.3s;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    text-shadow:3px 3px 3px #000;   
+}
+.maintext {
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 410px;  
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+
+}
+
+.subtext {
+    padding-top: 5px;
+    font-size: 0.8rem;
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+}
+
+.tunnel_box {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url("../../public/images/index/tunnel_d.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+.tunnel_box:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url("../../public/images/index/tunnel_h.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+.dam_box {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url("../../public/images/index/dam_d.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+.dam_box:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url("../../public/images/index/dam_h.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);    
+}
+.scaf_box {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url("../../public/images/index/scaf_d.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+.scaf_box:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url("../../public/images/index/scaf_h.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+.airport_box {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url("../../public/images/index/airport_d.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);    
+}
+.airport_box:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url("../../public/images/index/airport_h.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);    
+}
+.bridge_box {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url("../../public/images/index/bridge_d.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);    
+}
+.bridge_box:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url("../../public/images/index/bridge_h.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);    
+}
+.cuslope_box {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url("../../public/images/index/cut_d.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);   
+}
+.cuslope_box:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url("../../public/images/index/cut_h.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);   
+}
+.building_box {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url("../../public/images/index/building_d.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);   
+}
+.building_box:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url("../../public/images/index/building_h.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);  
+}
+.waterwork_box {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url("../../public/images/index/water_d.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);   
+}
+.waterwork_box:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url("../../public/images/index/water_h.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);  
+}
+.pipeline_box {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url("../../public/images/index/pipeline_d.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);   
+}
+.pipeline_box:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-image: url("../../public/images/index/pipeline_h.png");
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);  
+}

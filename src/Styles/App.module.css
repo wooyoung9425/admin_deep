@@ -1,0 +1,63 @@
+.DivArea {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+
+.videoDiv {
+  width: 100%;
+}
+
+.textDiv {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+}
+
+.indexLogo {
+  width: 100%;
+  height: 70px;
+  padding: 20px;
+}
+
+.subTextDiv1 {
+  width: 600px;
+  margin-left: 15%;
+  margin-top: 15%;
+}
+
+.text1 {
+  font-size: 2.1rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.subTextDiv2 {
+  width: 700px;
+  margin-left: 15.5%;
+}
+
+.text2 {
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+.subTextDiv3 {
+  margin-top: 2%;
+  margin-left: 15.8%;
+}
+
+.text3 {
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;
+  font-size: 25px;
+  border: 2px solid white;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+}

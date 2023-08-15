@@ -1,0 +1,136 @@
+.DivArea {
+    margin-left: 255px;
+    padding: 1%;
+}
+.subOrder {
+    font-size: 1em;
+}
+
+.mainOrder {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* 대시보드 */
+.DashboardItem {
+    height: 15em;
+    color: #000;
+    line-height: 15em;
+    text-align: center;
+    background: #d9e5ff;
+}
+
+
+/* 설정 */
+.csTabPane{
+    padding : 30px;
+}
+.csForm{
+    height : 72vh;
+}
+.csFormItem{
+    height: 1.5em;
+    /* height: 200PX; */
+    padding: 10px;
+    /* background-color: #96bcf5; */
+}
+
+.csFromRadio{
+    width: 260px;
+    text-align: center;
+}
+.esFromRadio{
+    width: 165px;
+    text-align: center;
+}
+
+.submitBtnDiv {
+    margin-right: 10px;
+}
+
+.submitBtn {
+    margin-top: 300px;
+    margin-left: 10vw;
+    /* float : right; */
+    justify-content: center;
+}
+
+.progress{
+    float:left;
+    margin-left: 5vw;
+    padding-top: 20vw;
+}
+
+.downloadDiv{
+    margin-left: 300px;
+    margin-top: 200px;
+    padding: 1%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.csInputNumber{
+    width: 250px;
+}
+.drawerdown{
+    margin-right: 30px;
+    margin-left:10px;
+}
+
+.DamTypeDiv{
+    font-size : 20px;
+    margin-top: 8vw;
+    margin-left: 22vw;
+    margin-right: 20px;
+    float: left;
+}
+
+
+
+.BridgeForm {
+    /* height: 72vh; */
+    /* height: 72vh; */
+    float:left;
+}
+
+
+
+.BridgeInfoInput{
+    margin-right: 8px;
+    width: 100px;
+    float:left
+}
+
+.BridgeInfoInput2 {
+    margin-right: 8px;
+    width: 100px;
+}
+.EstimatorImage{
+    /* float:left; */
+    display: none;
+}
+.EstimatorImgUpload{
+    width: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: #9da5b3;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    float:left;
+}
+.BridgeFormItem {
+    height: 50px;
+}
+
+.ImageUploadFormItem {
+    height: 480px;
+    padding: 10px;
+    /* background-color: #96bcf5; */
+}
+
+.submitBtn2 {
+    width:300px;
+}
+

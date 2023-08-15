@@ -1,0 +1,257 @@
+@font-face {
+    font-family: inter-pretendard;
+    src: url('../../../public/assets/fonts/Pretendard/Pretendard-Regular.ttf');
+}
+
+@font-face {
+    font-family: inter-pretendard;
+    src: 'inter';
+    unicode-range: U+0041-005A, U+0061-007A;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined");
+
+html, body {
+    font-family : 'inter-pretendard';
+    font-size : 16px;
+}
+
+.payment-detail {
+    display: fixed;
+    width: 102.95rem;
+    /* height: 54.25rem; */
+    margin-left : 16rem;
+}
+.payment-layout {
+    display: block;
+    /* background-color: blue; */
+    margin-top : 33px;
+    margin-left : 21px;
+}
+
+.payment-content {
+    display: flex;
+    margin-bottom : 76px;
+}
+
+.payment-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    color: #000000;
+    
+    margin-bottom : 25px;
+}
+
+.subscribe {
+    margin-right : 24px;
+}
+
+.subscribe-title, .billing-title, .used-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom : 18px;
+}
+
+.billing-title span, .used-title span {
+    color: #535353;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.subscribe-content {
+    width: 615px;
+    height: 320px;
+    border: 1px solid #EDEDED;
+}
+
+.sub-title {
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43.2906px;
+    line-height: 52px;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+    margin-top : 56px;
+    margin-bottom: 40px;
+}
+
+.sub-title span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43.2906px;
+    line-height: 52px;
+    color: #000000;
+    margin-right : 18.06px;
+}
+
+.sub-content {
+    margin-left : 145px;
+}
+
+.sub-box {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.sub-name {
+    width: 121px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #535353;
+    margin-right : 20px;
+}
+
+.sub-value {
+    /* width: 185px; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #535353;
+}
+
+.termination-btn { 
+    cursor: pointer;
+    display: flex;
+    float : right;
+    margin-right : 20px;
+    color: #979797;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top : 25px;
+}
+
+.billing-content {
+    width: 960px;
+    height: 320px;
+    border: 1px solid #EDEDED;
+}
+
+.billing-standard {
+    display: flex;
+    align-items: center;
+}
+
+.standard-title {
+    width: 64px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #535353;
+}
+
+.standard-content {
+    display: flex;
+}
+
+.billing-standard {
+    margin : 16px;
+}
+
+.count-btn, .amount-btn {
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 96px;
+    height: 24px;
+    border: 1px solid #535353;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-right : 8px;
+}
+
+.count-btn.active, .amount-btn.active {
+    cursor: pointer;
+    width: 96px;
+    height: 24px;
+    background: #303030;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.billing-value {
+    display: block;
+    text-align: center;
+    margin-top : 40px;
+    margin-bottom: 57px;
+}
+
+.value-data {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.payment-data {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.payment-value {
+    display: block;
+    float: right;
+    margin-right : 24px;
+}
+
+.limit-date {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #303030;
+    margin-bottom: 12px;
+}
+
+.payment-btn {
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 256px;
+    height: 48px;
+    border: 1px solid #303030;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #303030;
+}
+
+.payment-btn:hover {
+    background: #EDEDED;
+}
+

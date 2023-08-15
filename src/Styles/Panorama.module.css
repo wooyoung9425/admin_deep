@@ -1,0 +1,79 @@
+.DivArea {
+    margin-left: 255px;
+    padding: 1%;
+}
+
+.subOrder {
+    font-size: 1em;
+}
+
+.subDashbord {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.Projectbody {
+    width: 100%;
+    height: 70vh;
+    
+}
+
+.Createtable {
+    font-size: 16px;
+    display: flex;
+}
+
+.CreateTitleText {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1em;
+    margin-left: 700px;
+    display: flex;
+}
+
+.setting {
+    font-size: 15px;
+    line-height: 50px;
+    margin-left: 5px;
+    color: rgb(100, 100, 192);
+}
+
+.mainOrder {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.SetDiv {
+    width: 100%;
+    height: 75vh;
+    padding: 0.5%;
+
+}
+
+
+
+.RadioButton {
+    width: 20em;
+    text-align: center
+}
+.CreateButton {
+    margin-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 1450px;
+    width: 150px;
+}
+
+.Forms {
+    height: 50vh;
+    width: 800px;
+    margin-top: 10px;
+}
+
+
+.FormItem {
+    padding: 0;
+    margin: 0 0 1em;
+}
+
+
+

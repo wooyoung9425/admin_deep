@@ -1,0 +1,25 @@
+.FooterDiv{
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  transform : translateY(110%+200px);
+  font-size: 10px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.Footer {
+  width: 70%;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.FooterTextDiv {
+  float: left;
+  text-align: center;
+  line-height: 0.5rem;
+}

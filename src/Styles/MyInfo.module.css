@@ -1,0 +1,76 @@
+.DivArea {
+  height: 100%;
+  padding-bottom: 5em;
+  position: relative;
+}
+
+.ContentDiv2 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.userInfo{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  padding-bottom: 50px;
+}
+
+.userInfoBox{
+  /* width: 60%; */
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-size: 18px;
+  /* align-items: center;  */
+}
+.userDiv{
+  padding-top: 50px;
+}
+.userInfoButton{
+  width : 150px;
+  border-radius: 20px;
+  height : 50px;
+  background-color: cornflowerblue;
+  margin:10px;
+  font-size: 15px;
+  border: none;
+
+}
+
+.userinfoForm{
+  width: 320px;
+  height: 72vh;
+  font-size: 18px;
+}
+.userinfoFormItem{
+  height: 1.5em;
+  padding: 15px;
+  font-size: 18px;
+}
+.userinfoInput{
+  float:right;
+}
+
+.pPrice{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.pPriceExp{
+  padding-left: 23px;
+  font-size: 15px;
+}
+
+.pPriceExp2{
+  font-size: 25px;
+  text-align: center;
+  color: #555;
+}

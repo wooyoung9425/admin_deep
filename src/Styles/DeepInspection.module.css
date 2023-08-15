@@ -1,0 +1,155 @@
+.DivArea {
+  height: 100%;
+  position: relative;
+}
+
+.TitleDiv {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.TitleText {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.ContentDiv {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ContentDiv2 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.DeepInspectorItem1 {
+  height: 35em;
+  width: 100%;
+  padding: 7%;
+}
+
+.DeepInspectorItem2 {
+  height: 35em;
+  width: 100%;
+  padding: 7%;
+  background-color: #e5e5e5;
+}
+
+.DeepInspectorItemDiv {
+  float: left;
+  width: 50%;
+}
+
+.DeepInspectorText1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.DeepInspectorText2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.DeepInspectorText3 {
+  font-size: 14px;
+  color: #313131;
+}
+
+.DeepInspectorImg {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.LoginDiv {
+  width: 400px;
+  height: 380px;
+  display: inline-block;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 5px #e6e6e6;
+  text-align: center;
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.text {
+  width: 300px;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.textArea {
+  width: 300px;
+  height: 40px;
+  display: inline-block;
+}
+
+.InquiryDiv1 {
+  height: 50em;
+  width: 100%;
+  padding: 50px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 5px #e6e6e6;
+  display: inline-block;
+}
+
+.InquiryDiv2 {
+  height: 18em;
+  width: 100%;
+  padding: 50px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 5px #e6e6e6;
+  display: inline-block;
+}
+
+
+.SignInBtn {
+  width: 300px;
+  height: 40px;
+  background-color: #3196E4;
+  border: #3196E4;
+  cursor: pointer;
+}
+
+.GoRegister {
+  cursor: pointer;
+}
+
+.SignInBtn:hover{
+  background-color: #096dd9;
+  border: #096dd9;
+  color: white;
+}
+
+.RegisterDiv {
+  width: 400px;
+  height: 700px;
+  display: inline-block;
+  padding: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 5px #e6e6e6;
+  margin-bottom: 100px;
+}
+
+.SignUpBtn {
+  width: 300px;
+  height: 40px;
+  background-color: #0050b3;
+  border: #0050b3;
+}
+
+.SignUpBtn:hover{
+  background-color: #096dd9;
+  border: #096dd9;
+}
+
+.errorMsg {
+  color:red;
+}
